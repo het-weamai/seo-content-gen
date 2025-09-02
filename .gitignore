@@ -4,8 +4,10 @@ node_modules/
 /node_modules
 
 # Build outputs
-/dist
-/build
+dist/
+**/dist/
+build/
+**/build/
 /.next
 /out
 *.tsbuildinfo
@@ -48,11 +50,8 @@ debug.log
 .env.local
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
+**/.vscode/
 .history/
 *.code-workspace
 
