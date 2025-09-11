@@ -149,8 +149,4 @@ export function useProjectActivityPermissions() {
   };
 }
 
-export function useTimeTrackingPermissions() {
-  return {
-    canViewTimeTrackingLogs: true,
-  };
-}
+// Time tracking permissions removed for single-user application

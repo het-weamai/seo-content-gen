@@ -20,6 +20,7 @@ import { GeminiModule } from './modules/gemini/gemini.module';
 import { PromptTypesModule } from './modules/prompt-types/prompt-types.module';
 import { GuardsModule } from './shared/guards/guards.module';
 import { WebhooksModule } from './modules/webhooks/webhooks.module';
+// TimeTrackingModule removed for single-user application
 
 // Email and notification modules removed for single-user application
 
@@ -64,6 +65,7 @@ import { ScheduleModule } from '@nestjs/schedule';
     GeminiModule,
     PromptTypesModule,
     WebhooksModule,
+    // TimeTrackingModule removed for single-user application
 
     ScheduleModule.forRoot(),
   ],
